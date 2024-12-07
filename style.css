@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     width: 100%;
-    background-color: bisque;
+    background-color: hsl(30, 54%, 90%);
 }
 
 h1, h2, h3, h4, h5, h6 {
