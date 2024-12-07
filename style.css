@@ -64,7 +64,7 @@ header > p {
    padding: 1rem;
    border-radius: 8px;
    background-color: hsl(330, 100%, 98%) ;
-   width: 90%;
+   width: 100%;
    max-width: 1440px;
    text-align: left;
    display: flex;
@@ -196,13 +196,16 @@ ul {
         padding: 0.5rem; 
         font-size: 0.9rem; 
         gap: 0.3rem; 
-        width: 95%; 
+        width: 100%; 
+        word-wrap: break-word
     }
  
     .prep-time h3 {
         font-size: 1rem; 
     }
-
+    .prep-time li {
+        word-wrap: break-word; /* Takođe prelom reči unutar liste */
+    }
 
 
 }
